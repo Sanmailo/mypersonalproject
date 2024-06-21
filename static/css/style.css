@@ -1,0 +1,164 @@
+* {
+    list-style: none;
+}
+body{
+    position: relative;
+}
+:root {
+    --gold: #b99126;
+    --yelllow: #fae900;
+    -red: #ff0b4d;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 15.7px;
+    color: #010101;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+a {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: .2s ease-in;
+}
+
+a:hover {
+    color: aliceblue;
+    text-decoration: none;
+    border-bottom: 2px solid var(--yelllow);
+}
+
+img {
+    max-width: 100%;
+}
+
+.green {
+    color: #97b926;
+    font-weight: 700;
+}
+
+.bg-black {
+    background: #010101;
+}
+
+.logo {
+    border: none;
+    color: var(--yelllow);
+}
+
+.logo:hover {
+    border: none;
+    opacity: .8;
+}
+
+.gradient {
+    background: linear-gradient(to right, #63b926 0%, #14a3cd 100%);
+}
+
+#home {
+    background-image: linear-gradient(to right, #63b926 0%, #404d523a), url('/asset/coin/bitcoin.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.height {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text>h2 {
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.icon {
+    color: #97b926;
+    font-size: 1.2rem;
+}
+
+.card-effect {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 3px 9px #010101bd;
+    transition: all.5s ease;
+    background: #dcdcdc;
+}
+
+.card-effect:hover {
+    box-shadow: 2px 3px 3px #010101bd;
+}
+
+.image {
+    box-shadow: -3px -1px 4px 0px #010101bd;
+    padding: 10px;
+    border: 2px solid var(--gold);
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    transition: all .5s ease;
+}
+
+.card-effect:hover .image {
+    transform: scale(1.1);
+}
+
+.colored {
+    color: var(--red);
+    font-weight: 700;
+}
+
+.navbar-toggler {
+    background: #63b926;
+    border: 2px solid #fff;
+}
+
+
+footer h5{
+    color: #ff0b4d;
+    text-shadow: 1px 0px 0px #e9ecef;
+}
+footer p{
+    width: 400px;
+    margin: auto;
+}
+.upward{
+    font-size: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 5px;
+    background: #63b926;
+    padding: 5px;
+    border-radius: 10px;
+}
